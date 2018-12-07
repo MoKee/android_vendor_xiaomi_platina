@@ -220,7 +220,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/platina/proprietary/vendor/bin/hdcp1prov:$(TARGET_COPY_OUT_VENDOR)/bin/hdcp1prov \
     vendor/xiaomi/platina/proprietary/vendor/bin/hdcp2p2prov:$(TARGET_COPY_OUT_VENDOR)/bin/hdcp2p2prov \
     vendor/xiaomi/platina/proprietary/vendor/bin/hvdcp_opti:$(TARGET_COPY_OUT_VENDOR)/bin/hvdcp_opti \
-    vendor/xiaomi/platina/proprietary/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.biometrics.fingerprint@2.1-service \
     vendor/xiaomi/platina/proprietary/vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.bluetooth@1.0-service-qti \
     vendor/xiaomi/platina/proprietary/vendor/bin/hw/android.hardware.drm@1.0-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.0-service.widevine \
     vendor/xiaomi/platina/proprietary/vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.gatekeeper@1.0-service-qti \
@@ -396,7 +395,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/platina/proprietary/vendor/etc/hbtp/qtc800s_dsp.bin:$(TARGET_COPY_OUT_VENDOR)/etc/hbtp/qtc800s_dsp.bin \
     vendor/xiaomi/platina/proprietary/vendor/etc/hbtp/qtc800s_dsp30.bin:$(TARGET_COPY_OUT_VENDOR)/etc/hbtp/qtc800s_dsp30.bin \
     vendor/xiaomi/platina/proprietary/vendor/etc/hbtp/qtc801s.bin:$(TARGET_COPY_OUT_VENDOR)/etc/hbtp/qtc801s.bin \
-    vendor/xiaomi/platina/proprietary/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc \
     vendor/xiaomi/platina/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.0-service-qti.rc \
     vendor/xiaomi/platina/proprietary/vendor/etc/init/android.hardware.drm@1.0-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.0-service.widevine.rc \
     vendor/xiaomi/platina/proprietary/vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc \
@@ -511,7 +509,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/platina/proprietary/vendor/lib/hw/audio.primary.sdm660.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.sdm660.so \
     vendor/xiaomi/platina/proprietary/vendor/lib/hw/camera.sdm660.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.sdm660.so \
     vendor/xiaomi/platina/proprietary/vendor/lib/hw/com.qualcomm.qti.ant@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/com.qualcomm.qti.ant@1.0-impl.so \
-    vendor/xiaomi/platina/proprietary/vendor/lib/hw/fingerprint.goodix.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/fingerprint.goodix.so \
     vendor/xiaomi/platina/proprietary/vendor/lib/hw/gatekeeper.sdm660.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gatekeeper.sdm660.so \
     vendor/xiaomi/platina/proprietary/vendor/lib/hw/keystore.sdm660.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/keystore.sdm660.so \
     vendor/xiaomi/platina/proprietary/vendor/lib/hw/sound_trigger.primary.sdm660.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sound_trigger.primary.sdm660.so \
@@ -2421,7 +2418,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/platina/proprietary/vendor/lib/soundfx/libshoebox.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libshoebox.so \
     vendor/xiaomi/platina/proprietary/vendor/lib/vendor.display.color@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.color@1.0_vendor.so \
     vendor/xiaomi/platina/proprietary/vendor/lib/vendor.display.postproc@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.postproc@1.0_vendor.so \
-    vendor/xiaomi/platina/proprietary/vendor/lib/vendor.goodix.hardware.fingerprintextension@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.goodix.hardware.fingerprintextension@1.0.so \
     vendor/xiaomi/platina/proprietary/vendor/lib/vendor.qti.esepowermanager@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.esepowermanager@1.0_vendor.so \
     vendor/xiaomi/platina/proprietary/vendor/lib/vendor.qti.gnss@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.gnss@1.0_vendor.so \
     vendor/xiaomi/platina/proprietary/vendor/lib/vendor.qti.hardware.data.latency@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.data.latency@1.0_vendor.so \
@@ -2479,8 +2475,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/platina/proprietary/vendor/lib64/hw/android.hardware.keymaster@3.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.keymaster@3.0-impl-qti.so \
     vendor/xiaomi/platina/proprietary/vendor/lib64/hw/audio.primary.sdm660.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.primary.sdm660.so \
     vendor/xiaomi/platina/proprietary/vendor/lib64/hw/com.qualcomm.qti.ant@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/com.qualcomm.qti.ant@1.0-impl.so \
-    vendor/xiaomi/platina/proprietary/vendor/lib64/hw/fingerprint.fpc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.fpc.so \
-    vendor/xiaomi/platina/proprietary/vendor/lib64/hw/fingerprint.goodix.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.goodix.so \
+    vendor/xiaomi/platina/proprietary/vendor/lib64/hw/fingerprint.fpc.sdm660.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.fpc.sdm660.so \
+    vendor/xiaomi/platina/proprietary/vendor/lib64/hw/fingerprint.goodix.sdm660.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.goodix.sdm660.so \
     vendor/xiaomi/platina/proprietary/vendor/lib64/hw/gatekeeper.sdm660.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gatekeeper.sdm660.so \
     vendor/xiaomi/platina/proprietary/vendor/lib64/hw/keystore.sdm660.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/keystore.sdm660.so \
     vendor/xiaomi/platina/proprietary/vendor/lib64/hw/sound_trigger.primary.sdm660.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/sound_trigger.primary.sdm660.so \
